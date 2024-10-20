@@ -14,8 +14,6 @@ add_executable(ChatClientClient
         main.cpp
         Client.cpp
         Client.h
-        SignalServer.cpp
-        SignalServer.h
 )
 
 target_include_directories(ChatClientClient PRIVATE ${Boost_INCLUDE_DIRS})
